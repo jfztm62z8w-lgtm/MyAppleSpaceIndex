@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyAppleSpace — The Community Is Coming Back</title>
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #6e6e73;
+    --accent: #0071e3;
+    --border: #d2d2d7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    text-align: center;
+    padding: 80px 20px 60px;
+  }
+  header .logo {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+  }
+  header .logo span { color: var(--accent); }
+  header h1 {
+    font-size: clamp(32px, 6vw, 56px);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+  }
+  header p.subhead {
+    font-size: clamp(16px, 2.5vw, 20px);
+    color: var(--muted);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px 100px;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 40px;
+    margin-bottom: 28px;
+  }
+  section h2 {
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+  section p { color: var(--text); margin-bottom: 14px; }
+  section p:last-child { margin-bottom: 0; }
+  section p.muted { color: var(--muted); font-size: 15px; }
+  .cta {
+    text-align: center;
+    padding: 50px 40px;
+  }
+  .cta h2 { margin-bottom: 12px; }
+  .cta p { color: var(--muted); margin-bottom: 28px; }
+  .cta-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+  .cta-form input[type="email"] {
+    flex: 1 1 240px;
+    padding: 14px 18px;
+    border: 1px solid var(--border);
+    border-radius: 980px;
+    font-size: 16px;
+    outline: none;
+  }
+  .cta-form input[type="email"]:focus { border-color: var(--accent); }
+  .cta-form button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 980px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .cta-form button:hover { background: #0077ed; }
+  .cta-note { margin-top: 16px; font-size: 13px; color: var(--muted); }
+  footer {
+    text-align: center;
+    padding: 40px 20px 60px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">my<span>Apple</span>Space</div>
+  <h1>We're bringing the community back.</h1>
+  <p class="subhead">A long-running home for Apple users went quiet. We bought the address, and we're rebuilding it — for the people who made it worth visiting in the first place.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>What this is</h2>
+    <p>MyAppleSpace is a community for Apple users — a place for the small, specific groups that tend to form around this stuff: classic Mac collectors, Apple II tinkerers, iPhone and iPad power users, vintage hardware restorers, app and accessory enthusiasts, and anyone else who'd rather geek out with people who get it than scroll past it in a generic feed.</p>
+    <p>The idea is simple: smaller groups built around specific interests tend to produce better conversations than one giant general-purpose feed. We'd rather have a handful of focused, active corners than one noisy front page.</p>
+  </section>
+
+  <section>
+    <h2>A note on what this isn't</h2>
+    <p>This is a new project built on a domain that previously hosted a different community. It is not a continuation of, and has no operational connection to, the site that previously existed at this address — we're starting fresh, on our own terms.</p>
+    <p class="muted">MyAppleSpace is also not affiliated with, endorsed by, or sponsored by Apple Inc. in any way. It's an independent, community-run space for people who use Apple products.</p>
+  </section>
+
+  <section class="cta">
+    <h2>Were you part of it the first time around?</h2>
+    <p>Leave your email and we'll let you know as the site comes back online — and we'd genuinely like to hear what you remember about it.</p>
+    <form class="cta-form" action="mailto:gd8wbsh82j@privaterelay.appleid.com" method="post" enctype="text/plain">
+      <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+      <button type="submit">Keep me posted</button>
+    </form>
+    <p class="cta-note">This opens an email to the site's organizer — no accounts, no mailing-list software, just a direct line for now.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>myapplespace.com — relaunch in progress · Have a story about the original community? <a href="mailto:gd8wbsh82j@privaterelay.appleid.com?subject=MyAppleSpace%20memories">Send it our way</a>.</p>
+</footer>
+
+</body>
+</html>
